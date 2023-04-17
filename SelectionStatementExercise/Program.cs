@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            var favoriteNumber = 47;
+            var r = new Random();
+            var favoriteNumber = r.Next(1, 100);
 
             Console.WriteLine("Lets play a guessing game!");
             Console.WriteLine("Think you can guess my favorite number?");
